@@ -55,12 +55,12 @@ p:first-letter {
     font-size: 2rem;
 }
 a:link {
-    color: orange;
+    color: #f2d16b;
 }
  
 
 a:visited {
-    color: rgb(224, 176, 79);
+    color: #f2d16b;
 }
  
 
