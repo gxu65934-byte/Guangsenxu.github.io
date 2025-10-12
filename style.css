@@ -78,15 +78,10 @@ video, iframe {
  
 }
 
-
 img {
-  margin: 15 auto;
- border-radius: 15px;
-  max-width: 100%;
-  height: auto;
-  display: block;
+  margin: 20px auto;
+  border-radius: 10px; 
 }
-
 
 input[type="text"],
 input[type="email"],
