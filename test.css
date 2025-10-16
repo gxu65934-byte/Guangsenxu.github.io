@@ -1,0 +1,34 @@
+
+
+
+
+
+h2, p{
+    width: 400px;
+    font-size: 90%;
+    line-height: 1.2em;
+}
+
+h2{
+    color: #0088dd;
+    border-bottom: 1px solid #0088dd;
+}
+
+p{
+    min-height: 10px;
+    max-height: 30px;
+    overflow: scroll;
+    border: 1px dotted gray;
+    scrollbar-width: 40;
+}
+
+main{
+    box-shadow: 2px, 4px, 8px rgba(80, 80, 80, 0.1);
+    width: fit-content;
+    height: fit-content;
+    padding: 1.2rem;
+    margin: auto;
+    border-radius: 1em;
+    
+
+}
