@@ -88,6 +88,13 @@ h3{
   text-shadow: 0 0 5px #9c9a97cd, 0 0 10px #999693, 0 0 20px #d2b595;
 }
 
+hr {
+  border: none !important;
+  height: 3px !important;
+  background: linear-gradient(90deg, orange, gold, rgb(255, 251, 0)) !important;
+  width: 100% !important;
+  margin: 20px auto !important;
+}
 
 main {
     box-shadow: 0 0 12px rgba(220, 142, 7, 0.942);
@@ -106,20 +113,22 @@ img{
   border-radius: 10px;
   transition: 0.3s;
   padding: 10px;
-   border: 4px dotted rgb(19, 24, 103);
+   border: 4px dotted rgb(62, 92, 174);
     margin-bottom: 25px;
+    
 }
 
 p{
    color: #36c7e1f8;
     margin-top: 40px;
     border: 4px dotted rgb(19, 24, 103);
+   
 }
 
 h3{
-     border: 4px dotted rgb(19, 24, 103);
-       margin-top: 20px;
- 
+     border: 4px dotted  rgb(19, 24, 103);;
+     margin-top: 20px;
+   
 }
 
 body {
