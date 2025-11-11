@@ -1130,7 +1130,6 @@ flex-shrink: 0;
 }
 
 
-
 .banner-video{
   filter: brightness(0.8);
   transition: transform 0.3s ease;
@@ -1142,4 +1141,10 @@ flex-shrink: 0;
 .banner-video:hover {
  filter: brightness(1);
   transform: scale(1.03);
+}
+
+.name{
+   border: none;
+  padding: 0;
+  color: #dad5d5;
 }
