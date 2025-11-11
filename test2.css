@@ -1,0 +1,376 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .banner, main{
+    height: 400px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .banner, main{
+    height: 300px;
+    background-position: center top;
+  }
+}
+
+
+header  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#0d131a;
+}
+
+header, nav {
+  padding: 5px;
+  margin: 0px;
+  border: 2px ;
+
+}
+
+
+.main-nav ul{
+    display: flex;
+    gap: 2rem;  
+    display:flex; 
+    list-style:none; 
+    gap:60px; margin:0; 
+    padding-left: 0;
+    margin: 0;
+    height: 3rem;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.sub-nav {
+ display: flex;  
+  justify-content: space-between; 
+  align-items: center;
+  background-color: #1b2838;
+  padding: 10px 20px;
+
+}
+
+.sub-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;  
+  margin: 0;
+  padding: 100;
+}
+
+.sub-nav a {
+  color: #00a2ff;
+  text-decoration: none;
+}
+
+.sub-nav form {
+  display: flex;
+  align-items: center;
+}
+
+.sub-nav input[type="search"] {
+  padding: 8px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  background-color: #464a4d;
+}
+
+.sub-nav button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  background-color: #3a9be9;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+.banner {
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
+  background-color: #1b2838; /* 背景与图颜色相近 */
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center; 
+}
+
+.row {
+  justify-content: center; 
+  gap: 50px;     
+  align-items: center;          
+}
+
+
+ h3{
+  align-self: flex-start; /* 让标题脱离居中对齐，靠左或偏移 */
+  margin-left: -20px;
+  margin-top: -10px !important;
+  color: rgb(253, 253, 254);
+}
+
+ h5{
+  align-self: flex-start;
+  margin-left: 1px;
+  color: aliceblue;
+}
+
+.costr2-title{
+    position: relative;
+  top: -100px;
+}
+
+
+.recommend-head
+{
+   margin-left: 320px;
+}
+
+.update-title1{
+   position: relative;
+  top: -90px; 
+}
+
+.update-title2 {
+  position: relative;
+  top: 15px;  /* 向上移动 20px */
+}
+
+.seller-title1{
+      color: rgb(211, 217, 223);
+     position: relative;
+     top: -100px;
+}
+.seller-title2{
+    color: rgb(211, 217, 223);
+     position: relative;
+    margin-left: -1px;
+     top: 5px;
+}
+
+.free-play1{
+      color: rgb(211, 217, 223);
+     position: relative;
+    margin-left: 1px;
+     top: -80px;
+}
+
+.free-play2{
+     color: rgb(211, 217, 223);
+     position: relative;
+    margin-left: -1px;
+     top: 20px;
+}
+
+
+.display-pic1, .display-pic2, .display-pic3{
+    background: linear-gradient(145deg, #0f1923, #000000); /* ✅ 深蓝渐变背景 */
+  border-left: 2px solid #000000;                      /* ✅ 左竖线分割边框 */                      
+  padding: 25px 30px;                                  /* ✅ 内边距 */
+  color: #c7d5e0;                                      /* ✅ Steam灰白文字 */
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.6);  
+  margin-left: 30px;
+  width: 450px;
+  height: 295px;
+  justify-content: space-between;
+   box-sizing: border-box;
+}
+
+.gamepic1{
+  display: flex;
+  gap: 20px;
+  margin: 15px;
+  padding: 10px;
+  margin-top: 5px;
+  justify-content:center;
+  margin-left: -50px;
+  width: 100%;
+  margin-bottom: 100px;
+     box-shadow: #464a4d;
+}
+
+.gamepic1 img {
+  width: 45%;
+  height: auto;
+}
+
+.gamepic2 {
+  display: flex;
+    
+  margin-top: -10px;
+  justify-content:center;
+  margin-left: -30px;
+  flex-wrap: wrap;
+    justify-content: flex-start;
+       box-shadow: #464a4d;
+}
+
+.gamepic2 img {
+  width: 45%;
+  height: auto;
+  margin-top: 10px;
+   object-fit: cover;
+}
+
+.gamepic3 {
+    display: flex;
+    gap: px;
+    margin-top: 10px;
+    justify-content: center;
+    margin-left: -30px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    box-shadow: #464a4d;
+}
+
+.gamepic3 img{
+    width: 45%;
+    height: auto;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+.main-Exl img, .main-CS2 img, .main-Apex img{
+    display: flex;
+  flex-wrap: wrap; 
+  justify-content: flex-start; 
+  gap: 10px; 
+  margin-left: 110px;
+   margin-top: -5px;
+ background: #0d131a;
+   width: 100%;
+  object-fit: cover; 
+ 
+}
+
+
+
+/* --- Carousel --- */
+#featuredCarousel {
+      box-shadow: 0 0 20px rgba(75, 73, 73, 0.8);
+  background-color:  #273850;
+}
+
+.carousel-item img {
+  
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.55);
+  padding: 20px;
+ 
+}
+
+.carousel-caption h3 {
+  color: #66c0f4;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  color: #dcdedf;
+  margin-bottom: 10px;
+}
+
+/* 小图组 */
+.mini-img {
+
+  transition: transform 0.3s;
+}
+.mini-img:hover {
+  transform: scale(1.05);
+}
+
+
+/* 控制按钮 & 圆点 */
+.carousel-indicators [data-bs-target] {
+  background-color: #66c0f4;
+}
+.carousel-control-prev-icon{
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  padding: 15px;
+  margin-left: 150%;
+}
+
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  padding: 15px;
+  margin-left: -95%;
+
+}
+
+
+#discountCarousel {
+  max-width: 1000px;
+  margin: 40px auto;
+  background-color: #1b2838;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+#discountCarousel .carousel-item {
+  padding: 10px;
+}
+
+.discount-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.discount-card {
+
+  background-color: #2a475e;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.discount-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0,0,0,0.8);
+}
+
+.discount-card img {
+  width: 80%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.discount-info {
+  background-color: #1b2838;
+  color: #c7d5e0;
+  padding: 15px;
+}
+
+.price-tag {
+  color: #a4d007;
+  font-weight: bold;
+}
+
+/* ✅ 指示点和按钮区分 */
+#featuredCarousel .carousel-indicators button {
+  background-color: #66c0f4;
+}
+#discountCarousel .carousel-indicators button {
+  background-color: #a4d007;
+}
+
+
+body{
+     background-color: #1b2838 !important;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;   
+}

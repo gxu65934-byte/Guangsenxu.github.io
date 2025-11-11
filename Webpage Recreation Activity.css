@@ -399,10 +399,19 @@ box-shadow: 0 0 15px rgba(102, 192, 244, 0.8);
 }
 
 
-.recommend-head
-{
-   margin-left: 320px;
+.recommend-head {
+  position: relative;
+  margin-left: 250px;
+  margin-top: 80px;
 }
+
+.recommend-head h5 {
+  color: #c7d5e0;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
 
 .update-title1{
    position: relative;
@@ -1134,7 +1143,3 @@ flex-shrink: 0;
  filter: brightness(1);
   transform: scale(1.03);
 }
-
-
-
-
