@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+ background-color: rgb(9, 46, 119);
+ width: 100vw;
+  display:flex;
+  justify-content:space-between; 
+  align-items:center;
+  padding: 0 30px;
+   box-shadow: 0 0 10px rgba(211, 187, 5, 0.15);
+   color: #ff5647; 
+  text-shadow: 0 0 5px #ff8000, 0 0 10px #ff6347, 0 0 20px #ff0000;
+}
+
+.nav-links a {
+  color: #282e38;
+  text-decoration: none;
+  font-weight: 500;
+  
+}
+.nav-links a:hover { color: #db8d34; text-decoration: underline; }
+ 
+nav>ul {
+    display: flex;
+    gap: 2rem;  
+    display:flex; 
+    list-style:none; 
+    gap:60px; margin:0; 
+    padding-left: 0;
+    margin: 0;
+    height: 3rem;
+    align-items:center;
+    justify-content:space-between;
+}
+
+form {
+  margin-right: 20px;
+  background-color: #153ec6f5;
+  color: #bfb439dd;  
+    border: 1px solid;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+
+.nav-search input[type="search"] {
+  background:rgb(163, 188, 212);
+  border: none;
+  outline: none;
+  color: #363232; 
+  width: 220px;
+  padding: 6px 8px;
+  font-size: 16px;
+}
+
+.nav-search button {
+  background-color: #65a1dd;
+  color: #001f3f;
+  border: none;
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color .2s, color .2s;
+}
+
+.nav-search button:hover {
+  background-color:#22b8f4;
+ 
+  color: #c9c8c6;
+}
+
+header{
+    margin-top: 1rem;
+    color: #d99348f5;
+  text-align: center;
+}
+
+h3{
+    margin-top: 2rem;
+    text-align: center;
+  color:  #fe8300fe !important;
+  text-shadow: 0 0 5px #9c9a97cd, 0 0 10px #999693, 0 0 20px #d2b595;
+}
+
+hr {
+  border: none !important;
+  height: 3px !important;
+  background: linear-gradient(90deg, orange, gold, rgb(255, 251, 0)) !important;
+  width: 100% !important;
+  margin: 20px auto !important;
+}
+
+main {
+    box-shadow: 0 0 12px rgba(220, 142, 7, 0.942);
+    padding: 0.4rem 1.2rem;
+    margin: 2em auto 0;
+    border-radius: 1em;
+    background-color: transparent;
+    border-top: rgb(253, 162, 6) 0.1em solid;
+
+}
+
+img{
+  display: block !important;
+  margin-left: 30px !important;
+  width: 85%;       
+  border-radius: 10px;
+  transition: 0.3s;
+  padding: 10px;
+   border: 4px dotted rgb(62, 92, 174);
+    margin-bottom: 25px;
+    
+}
+
+p{
+   color: #36c7e1f8;
+    margin-top: 40px;
+    border: 4px dotted rgb(19, 24, 103);
+   
+}
+
+h3{
+     border: 4px dotted  rgb(19, 24, 103);;
+     margin-top: 20px;
+   
+}
+
+body {
+    background-image: url('wmremove-transformed.png');
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;   
+    background-size: cover;
+
+
+}
+
+.no-border {
+  border: none;
+  padding: 0;
+
+}
+
+p:first-letter {
+    font-size: 1rem;
+}
+a:link {
+    color: #e9b10a;
+}
+ 
+
+a:visited {
+    color: #f2d16b;
+}
+
+a:hover {
+   color: #FFD700;
+  text-shadow: 0 0 10px #FFD700;
+  
+}
+
+footer p {
+  border: none;
+  padding: 0;
+  color: #0a0a0a;
+}
