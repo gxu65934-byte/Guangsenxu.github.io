@@ -167,8 +167,8 @@
   background-repeat: no-repeat;
   font-family: "Poppins", sans-serif;
 
-  height: auto;        /* 关键修复 */
-  min-height: 80vh;   /* 背景至少铺满屏幕，但不会过高 */
+  height: auto;    
+  min-height: 80vh;   
 
 } 
 
@@ -891,18 +891,17 @@ h3{
 
 
 
-/* 手机模式：Header */
-/* 手机模式：Header */
+
 @media (max-width: 768px) {
 
   .main-header {
+    min-width: 0 !important;   /* ← 必须加这一行！！！ */
     padding: 10px 15px;
     flex-direction: column;
-    min-width: auto;
   }
 
   .logo img {
-    width: 140px;     /* 自动缩小LOGO */
+    width: 140px;
     height: auto;
     margin-bottom: 10px;
   }
@@ -914,7 +913,7 @@ h3{
   }
 
   .main-nav a {
-    font-size: 16px;  /* 让按钮更容易点击 */
+    font-size: 16px;
   }
 
   .user-actions {
@@ -928,6 +927,18 @@ h3{
   }
 }
 
+
+@media (max-width: 768px) {
+  .container,
+  .content-wrapper,
+  .milk-tea-background,
+  section {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
 
 /* 手机模式：Menu Sticky Tabs */
 @media (max-width: 768px) {

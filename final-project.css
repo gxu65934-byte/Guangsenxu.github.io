@@ -689,13 +689,13 @@ section {
 @media (max-width: 768px) {
 
   .main-header {
+    min-width: 0 !important;   /* ← 必须覆盖 PC 版本 */
     padding: 10px 15px;
     flex-direction: column;
-    min-width: auto;
   }
 
   .logo img {
-    width: 140px;     /* 自动缩小LOGO */
+    width: 140px;
     height: auto;
     margin-bottom: 10px;
   }
@@ -707,7 +707,7 @@ section {
   }
 
   .main-nav a {
-    font-size: 16px;  /* 让按钮更容易点击 */
+    font-size: 16px;
   }
 
   .user-actions {
@@ -720,6 +720,7 @@ section {
     font-size: 14px;
   }
 }
+
 
 
 /* 手机模式：Menu Sticky Tabs */
