@@ -891,110 +891,143 @@ h3{
 
 
 
+/* 手机模式：Header */
+/* 手机模式：Header */
 @media (max-width: 768px) {
 
-  /* Header 修复 */
   .main-header {
+    padding: 10px 15px;
     flex-direction: column;
-    padding: 10px 20px;
-    min-width: auto !important;
+    min-width: auto;
+  }
+
+  .logo img {
+    width: 140px;     /* 自动缩小LOGO */
+    height: auto;
+    margin-bottom: 10px;
   }
 
   .main-nav ul {
     flex-direction: column;
     gap: 12px;
+    padding: 10px 0;
   }
 
   .main-nav a {
-    font-size: 16px;
+    font-size: 16px;  /* 让按钮更容易点击 */
   }
 
   .user-actions {
-    margin-top: 15px;
-    gap: 10px;
+    margin-top: 12px;
+    gap: 12px;
   }
 
-  /* Logo 缩小 */
-  .logo img {
-    height: 55px !important;
-    margin-bottom: 10px;
-  }
-
-  /* 横向分类卡片（Category Grid） */
-  .category-grid {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .category-card {
-    width: 92% !important;
-    height: 180px;
-  }
-
-  .categ-btn {
-    margin-left: 0 !important;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  /* 文字区块 */
-  .text-section h2 {
-    font-size: 28px;
-    text-align: center;
-  }
-
-  .text-section p {
+  .cart-btn, .order-btn, .profile-btn {
+    padding: 8px 14px;
     font-size: 14px;
-    padding: 0 15px;
+  }
+}
+
+
+/* 手机模式：Menu Sticky Tabs */
+@media (max-width: 768px) {
+  .menu-sticky-wrapper {
+    height: auto;
+    padding: 6px 0;
   }
 
-  /* 图片展示区（rooms, drinkpic, ice-cream） */
-  .room1, .room3, .foodpic1, .ice-creampic3 {
-    flex-direction: column;
-    width: 100% !important;
-    margin-left: 0 !important;
+  .menu-scroll {
     gap: 20px;
+    padding: 5px 10px;
+    margin-top: 0;
+    margin-left: 0;
   }
 
-  .room1 img,
-  .room2 img,
-  .room3 img,
-  .foodpic1 img,
-  .drinkpic2 img,
-  .ice-creampic3 img {
+  .menu-scroll a {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .scroll-btn {
+    font-size: 16px;
+    padding: 3px 8px;
+  }
+}
+
+
+
+/* 手机模式：商品卡片自动变成一列 */
+@media (max-width: 768px) {
+  .food-grid {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menu-card {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .menu-image img {
+    width: 100%;
+    height: 150px;
+    border-radius: 12px;
+  }
+}
+
+
+
+
+/* 手机 Contact Us 优化 */
+@media (max-width: 768px) {
+  .contact-box {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .contact-box input,
+  .contact-box textarea {
+    font-size: 14px;
+  }
+}
+
+
+/* 手机大图适配 */
+@media (max-width: 768px) {
+  .main-pic1 img,
+  .main-pic2 img,
+  .main-pic3 img,
+  .bread-1 img,
+  .drink-2 img,
+  .ice-cream-3 img {
+    margin-left: 0 !important;
     width: 100% !important;
     height: auto !important;
+    border-radius: 8px;
   }
 
-  /* 展示信息块改为全宽 */
-  .display-pic1, .display-pic2, .display-pic3,
-  .display-pic4, .display-pic5, .display-pic6 {
-    width: 90% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    height: auto !important;
-    padding: 20px !important;
+  .room1, .room2, .room3,
+  .foodpic1, .drinkpic2, .ice-creampic3 {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    padding: 10px;
   }
+}
 
-  /* Visit Us 地图 */
-  .map-section iframe {
-    width: 95% !important;
-    height: 250px !important;
-  }
-
-  /* Footer */
+/* 手机 Footer */
+@media (max-width: 768px) {
   .footer-section {
     padding: 20px;
   }
 
-  .footer-content {
-    align-items: flex-start;
+  .store-infor p {
+    font-size: 14px;
   }
 
-  /* 常见爆掉区宽度修正 */
-  * {
-    max-width: 100% !important;
-    box-sizing: border-box;
+  .footer-links a {
+    display: block;
+    margin-bottom: 6px;
   }
-
 }
