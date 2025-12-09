@@ -213,13 +213,13 @@ body {
   text-align: left;
   backdrop-filter: blur(5px);
 
-  margin: 0 auto;        /* 👈 居中 */
+  margin: 0 auto;      
   transform: none; 
 
 }
 
 .contact-box h1 {
-  color: #725548; /* 奶茶色文字 */
+  color: #725548; 
 }
 
 .contact-box label {
@@ -352,6 +352,8 @@ section {
   font-weight: 500;
   font-size: 15px;
 }
+
+
 
 
 .menu-scroll a.active::after {
